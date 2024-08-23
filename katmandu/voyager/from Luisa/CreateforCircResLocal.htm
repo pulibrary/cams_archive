@@ -1,0 +1,223 @@
+<HTML>
+<HEAD>
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>Creating records for circulation, reserves, local cataloging</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<P>
+<B><SMALL>Creating records for circulation, reserves and local cataloging<BR>
+8/1/00</SMALL></B>
+<P>
+<SMALL><B> When in doubt or if there are ANY questions regarding this procedure,
+call Maryann Langer, Catalog Unit V, 8-2309.</B></SMALL>
+<P>
+<SMALL>This procedure would be used when creating new bibliographic, holdings
+and item records for reserve materials, circ on the fly, and local cataloging
+of technical reports, government documents and Sr. theses, etc.</SMALL>
+<P>
+<UL>
+  <LI>
+    <SMALL>Log onto Voyager cataloging module.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Start by choosing the appropriate template for your work.</SMALL>
+    <TABLE BORDER CELLPADDING="2">
+      <TR VALIGN="Top">
+	<TD><B><SMALL>Reserves</SMALL></B><BR>
+	  <SMALL> <BR>
+	  Reserve book.tem<BR>
+	  Reserve recording.tem<BR>
+	  Reserve score.tem <BR>
+	  Reserve video.tem</SMALL></TD>
+	<TD><B><SMALL>Circulation</SMALL></B><SMALL> <BR>
+	  <BR>
+	  Circ.tem</SMALL></TD>
+	<TD><B><SMALL>Local cataloging</SMALL></B><BR>
+	  <SMALL> <BR>
+	  Brief.tem (book record)<BR>
+	  Brief Sr. thesis.tem<BR>
+	  Brief ser.tem (serial record)<BR>
+	  Brief music.tem<BR>
+	  Brief GOV DOC or TECH RPT.tem</SMALL>
+	  <P>
+	</TD>
+      </TR>
+    </TABLE>
+    <P>
+    <SMALL> 1. From the menu bar select
+    <B>Options&gt;Preferences&gt;Folders/Files</B>.<BR>
+    2. In the Templates Section click on the ellipses at the end of the Bib:
+    dialogue box.<BR>
+    3. In the Open dialogue box choose the appropriate template, then double-click
+    or click Open.<BR>
+    4. You can check the name of the template by using the arrow key in the Bib
+    dialogue box.<BR>
+    5. Click OK button at bottom of the Session Defaults and Preferences
+    box.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Click on New record icon (the first one on the tool bar - blank page
+    with corner turned down). The template, which has been set as the default
+    in your Session defaults and preferences, appears</SMALL>
+    <P>
+  <LI>
+    <SMALL>Fill in the appropriate fields. Any field that you are not using must
+    be deleted before saving the record.</SMALL>
+    <P>
+    <SMALL> For guidelines on how to input the MARC fields see: <BR>
+    &nbsp; &nbsp; &nbsp;For reserves: <A HREF="MARCReserves.html">MARC fields
+    and subfields used in brief reserve records </A><BR>
+    &nbsp; &nbsp; &nbsp;For circulation: <A HREF="MARCCirc.html">MARC fields
+    and subfields used in brief circulation records </A><BR>
+    &nbsp; &nbsp; &nbsp;For local cataloging: MARC fields and subfields used
+    in brief (local) cataloging</SMALL>
+    <P>
+    <SMALL> To edit a field: Use the usual Windows cut/copy/paste and overwrite
+    capabilities. <BR>
+    To add a field: <BR>
+    Use the F3 function key to add a line above the selected line <BR>
+    Use the F4 function key to add a line below the selected line <BR>
+    To delete a field, select the field and hit the delete key. <BR>
+    To insert a delimiter symbol use the F9 function key</SMALL>
+    <P>
+  <LI>
+    <SMALL>Click on the <B>boat </B>icon to save the record to the
+    database.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Click on the "<B>Strapped Books +</B>" icon to create a holdings record.
+    The holdings record (mfhd) template will display. Follow the guidelines for
+    entering information below.</SMALL>
+    <P>
+  <LI>
+    <B><SMALL>852 field</SMALL></B><SMALL> (location and call number field)</SMALL>
+    <P>
+    <SMALL> <B>Indicator 1:</B> Must have either a '0' (zero) for the Library
+    of Congress classification scheme, an '8' for Richardson classification,
+    accession numbers and others, or an '3' for Sudocs numbers.</SMALL>
+    <P>
+    <SMALL> <B>Indicator 2: </B>We will leave blank.</SMALL>
+    <P>
+    <SMALL> The <B>location</B> will be in a |b subfield<BR>
+    The location must be in <B>lower case</B>. If you need to change the location,
+    place the cursor at the beginning of the location, manually retype in a new
+    location and delete the old location, or with the cursor in the |b field
+    press ctrl/L and choose your location from the list. If you get an error
+    message related to the location, and your location is in lower case, consult
+    your supervisor.</SMALL>
+    <P>
+    <SMALL> Type in the following subfields in this order: <BR>
+    &nbsp; &nbsp;|b = location<BR>
+    &nbsp; &nbsp;|t = copy number (for any copy beyond the first. Copy 50 and
+    higher are used for Reserve items)<BR>
+    &nbsp; &nbsp;|c Oversize (if required. Also put the size symbol at the end
+    of the call number)<BR>
+    &nbsp; &nbsp;|h = class number<BR>
+    &nbsp; &nbsp;|i = shelflist / cutter number. This is the last part of the
+    LC call number that starts with a letter. It represents the main entry for
+    the item. Not needed for non LC call numbers</SMALL>
+    <P>
+    <SMALL> Examples:<BR>
+    For circulation</SMALL>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>0</SMALL></TD>
+	<TD><SMALL>&nbsp;</SMALL></TD>
+	<TD><SMALL>|b sg |h QE350 |i.I5 1990</SMALL></TD>
+      </TR>
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>0</SMALL></TD>
+	<TD></TD>
+	<TD><SMALL>|b sg |c Oversize |h QE350 |i.I52 1993q</SMALL></TD>
+      </TR>
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>0</SMALL></TD>
+	<TD></TD>
+	<TD><SMALL>|b res |t 50 |h DG225.B79 |i B747 1995</SMALL></TD>
+      </TR>
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>8</SMALL></TD>
+	<TD></TD>
+	<TD><SMALL>|b f |t 2 |h3225.1132</SMALL></TD>
+      </TR>
+    </TABLE>
+    <P>
+    <SMALL> For reserves:</SMALL>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>8</SMALL></TD>
+	<TD><SMALL>&nbsp;</SMALL></TD>
+	<TD><SMALL>|b res |h X ECO 321 BAU</SMALL></TD>
+      </TR>
+    </TABLE>
+    <P>
+    <SMALL> For local cataloging:</SMALL>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>8</SMALL></TD>
+	<TD><SMALL>&nbsp;</SMALL></TD>
+	<TD><SMALL>|b st |h DOT-FTA-MA-26-7021-96-1</SMALL></TD>
+      </TR>
+      <TR>
+	<TD><SMALL>852</SMALL></TD>
+	<TD><SMALL>8</SMALL></TD>
+	<TD></TD>
+	<TD><SMALL>|b st |h NASA-TP-3521</SMALL></TD>
+      </TR>
+    </TABLE>
+    <P>
+    <SMALL> If you are working with a <B>bookset</B> or <B>serial</B> there must
+    also be 866 fields in the holdings record, (which in NOTIS was in a separate
+    MARC holdings record). For guidance on how to input these see:<BR>
+    &nbsp; <A HREF="AddHoldItemMonoSets.html">&nbsp;Adding Holdings and Item
+    records to Voyager for monographs and booksets</A> <BR>
+    &nbsp; <A HREF="AddHoldItemSer.html">&nbsp;Adding Holdings and Item records
+    to Voyager for serials</A> </SMALL>
+    <P>
+  <LI>
+    <SMALL>Save the holdings record to the database by clicking on the boat
+    icon.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Click on the "<B>Stacked Books +</B>" icon to create an item
+    record.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Scan in the barcode.</SMALL>
+    <P>
+  <LI>
+    <SMALL>In the<B> item type</B> choose appropriate loan code.</SMALL>
+    <P>
+  <LI>
+    <SMALL>If working with a <B>bookset</B> or <B>serial</B> fill in the
+    <B>enum</B>. and <B>chron</B>. as appropriate. For guidance on how to input
+    these see the Adding Holdings and Item records to Voyager for monographs
+    and booksets procedure or Adding Holdings and Item records to Voyager for
+    serials procedure.</SMALL>
+    <P>
+  <LI>
+    <SMALL>If creating a <B>circ on the fly</B> record you have to set the item
+    status for <B>catalog review</B>. <BR>
+    Click on the graph button (edit item status) and choose catalog review from
+    the status list. Move it up to the status box by clicking on the blue arrow
+    button and click OK.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Save the item record to the database by clicking on the <B>boat
+    </B>icon.</SMALL>
+    <P>
+  <LI>
+    <SMALL>Click on the "<B>Show associated records</B>" icon to display the
+    bibliographic tree.</SMALL>
+    <P>
+    <SMALL><B> When in doubt or if there are ANY questions regarding this procedure,
+    call Maryann Langer, Catalog Unit V, 8-2309.</B></SMALL>
+    <P>
+</UL>
+</BODY></HTML>

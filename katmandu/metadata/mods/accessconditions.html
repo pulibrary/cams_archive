@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h3 id="AccessConditions">Access Conditions<a title="Link to this section" href="#AccessConditions">&para;</a></h3>
+<p>mods:accessCondition <strong>[Mandatory]</strong> </p>
+<h4 id="LocalPracticesandInterpretations1">Local Practices and Interpretations<a title="Link to this section" href="#LocalPracticesandInterpretations1">&para;</a></h4>
+<p>mods:accessCondition is used to indicate restrictions on access to   or use of the analog resource being described. Two instances of the element are   required, one for each of the two type attributes described below. </p>
+<h4 id="SupportedDescendantElementsandAttributes1">Supported Descendant Elements   and Attributes<a title="Link to this section" href="#SupportedDescendantElementsandAttributes1">&para;</a></h4>
+<dl>
+  <dt>@type </dt>
+  <dd><strong>[Required]</strong> Use the type attribute with the value   &quot;restrictionOnAccess&quot; to indicate information about conditions that affect the   availability of the materials being described. This attribute may indicate the   need for an appointment or the nature of restrictions imposed by the donor,   legal statute, repository, or other agency. It may also indicate the lack of   restrictions. </dd>
+</dl>
+<blockquote>
+  <p><strong>[Required]</strong> Use the type attribute with the value   &quot;useAndReproduction&quot; for information about conditions that affect use of the   described materials after access has been granted. This may include information   regarding reproduction, publication, or quotation of the described materials.   The attribute may also indicate the absence of restrictions, such as when   copyright or literary rights have been dedicated to the public. </p>
+</blockquote>
+<h4 id="XMLandDisplayExamples1">XML and Display Examples<a title="Link to this section" href="#XMLandDisplayExamples1">&para;</a></h4>
+<p><strong>XML:</strong> </p>
+<div>
+  <pre>&lt;mods:accessCondition type=&quot;useAndReproduction&quot;&gt;Single photocopies may be made for research purposes. Permission to publish materials from the collection must be requested from the Curator of the Public Policy Papers. Researchers are responsible for determining any copyright questions.&lt;/mods:accessCondition&gt;    &lt;mods:accessCondition type=&quot;restrictionOnAccess&quot;&gt;The collection is open for research.&lt;/mods:accessCondition&gt;  </pre>
+</div>
+<p><strong>Display:</strong> </p>
+<dl>
+  <dt>Restrictions on Access: </dt>
+  <dd>The collection is open for research. Originals may be accessed in the Seeley   G. Mudd Manuscript Library. </dd>
+  <dt>Usage rights: </dt>
+  <dd>Single photocopies may be made for research purposes. Permission to publish   materials from the collection must be requested from the Curator of the Public   Policy Papers. Researchers are responsible for determining any copyright   questions. </dd>
+</dl>
+<h4 id="ContentStandards1">Content Standards<a title="Link to this section" href="#ContentStandards1">&para;</a></h4>
+<ul>
+  <li>AACR2: x.7B20 </li>
+  <li>DACS: 4.1, 4.4 </li>
+</ul>
+<h4 id="OtherSourcesofDocumentation1">Other Sources of Documentation<a title="Link to this section" href="#OtherSourcesofDocumentation1">&para;</a></h4>
+<ul>
+  <li><a href="http://www.loc.gov/standards/mods//v3/mods-userguide-elements.html#accesscondition">Library of Congress</a> </li>
+  <li><a href="http://www.diglib.org/aquifer/dlfmodsimplementationguidelines_finalnov2006.pdf">DLF Aquifer</a> (p. 81) </li>
+</ul>
+<h4 id="MARCMappings1">MARC Mappings<a title="Link to this section" href="#MARCMappings1">&para;</a></h4>
+<p>506 - mods:accessCondition[@type=&quot;restrictionOnAccess&quot;] </p>
+<p>540 - mods:accessCondition[@type=&quot;useAndReproduction&quot;] </p>
+</body>
+</html>

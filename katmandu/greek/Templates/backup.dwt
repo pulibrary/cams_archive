@@ -1,0 +1,76 @@
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Greek Cataloging Manual</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style media="all" type="text/css">
+#nav ul {
+	margin: 0;
+	padding: 0;
+	width=165px;
+	list-style:none;
+}
+#nav li {
+	font-style: italic;
+	padding: 0 0 2px 0;
+}
+#nav .nav_title {
+	margin-top: 6px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: normal;
+}
+#nav a {
+	text-decoration: none;
+	color: blue;
+}
+#nav a:hover {
+	text-decoration:underline;
+	color: #000;
+}
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body bgcolor="ffffff">
+<table width="756" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="52" valign="top" colspan="3"><p><a href="http://library.princeton.edu/departments/tsd/katmandu/catman.html"><img src="file:///Z|/public_html/images/pucatdoc.gif" border="0"></a></p>
+      <p><img src="file:///Z|/public_html/images/gKey1.jpg" width="833" height="75" hspace="12" vspace="12" align="absmiddle" border="0"></a></p>
+<table width="756" border="0" cellpadding="0" cellspacing="0">
+  <tr>  </tr>
+  <tr> 
+    <td height="52" valign="top" colspan="3" align="center"><b><font size="+3">Guide to Greek Usage in Cataloging </font></b></td>
+  </tr>
+  <tr> 
+    <td width="165" valign="top">
+	<div id="nav">
+	  <ul>
+		<li><a href="file:///Z|/public_html/welcome.html">Home</a></li>
+	    <li class="nav_title">Romanization</span></li>
+        <li><a href="file:///Z|/public_html/romanization.htm">Table</a></li>
+        <li></li>
+		<li><a href="file:///Z|/public_html/Betterromanizationex.html">Examples</a></li>
+        <li><a href="file:///Z|/public_html/roughbreathing_11-30.htm">Breathing Marks</a></li>
+        <li><a href="file:///Z|/public_html/LanguageKath.htm">Language (Katharevousa/Demotic)</a></li>
+		<li class="nav_title"><strong>Numerals</strong></li>
+		<li><a href="file:///Z|/public_html/adobenumerals2.htm">Numbers</a></li>
+		<li><a href="file:///Z|/public_html/numbersromanization.ex.htm">Numbers spelled out (Ordinal/Cardinal)</a></li>
+		<li><a href="file:///Z|/public_html/numbersromanization.ex.htm">Numbers in headings, description and years</a></li>
+		<li class="nav_title"><strong>Names</strong></li>
+		<li><a href="file:///Z|/public_html/Personalnames.htm">Personal Names</a></li>
+		<li class="nav_title">References</li>
+		<li><a href="file:///Z|/public_html/abbreviations.html">Abbreviations</a><br />
+		  <a href="file:///Z|/public_html/Months.htm">Months</a><br />
+		  <a href="file:///Z|/public_html/diacritics.html">Diacritics </a><br />
+	  </ul>
+	</div>	</td>   
+    <td colspan="2" valign="top" width="591px"><!-- TemplateBeginEditable name="body" -->body<!-- TemplateEndEditable --></td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="left">&copy;2007 Trustees of Princeton University<br /><a href="mailto:gkam@princeton.edu"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">E-mail 
+        comments</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

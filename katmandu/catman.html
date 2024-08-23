@@ -1,0 +1,484 @@
+<html><!-- #BeginTemplate "/Templates/catman.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Princeton University Cataloging Documentation</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.pviimenudiv td {font-family: "Trebuchet MS", Arial, sans-serif; font-size: 12px}
+.pviimenudiv p {font-family: "Trebuchet MS", Arial, sans-serif; font-size: 12px; margin-top: 12px; margin-bottom: 6px}
+.pviimenudiv b {font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; color: #666666}
+.pviimenudiv a:link {color: #333333; text-decoration: underline}
+.pviimenudiv a:visited {color: #800000; text-decoration: underline}
+.pviimenudiv a:hover {color: #800000; text-decoration: underline}
+.pviimenudiv a:active {color: #000000; text-decoration: underline}
+#Layer1 {position:absolute; width:550px; height:115px; z-index:134; left: 202px; top: 120px;}
+.bodytext	{font-family: Verdana, Arial, sans-serif;  }	
+body, table, td, th, div 	{ background-image: /images/slice.gif; 
+	list-style-type: circle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;}
+.header {font-family: Verdana, Arial, Helvetica, sans-serif;}
+.larger {font-size:larger}
+.smaller {font-size:smaller}
+.bold {font-weight:700}
+.italic {font-style:italic}
+.red {font-weight: 700; color:red}
+.bi	{font-style:italic; font-weight:700}
+.center	{text-align:center}
+.header {text-align:center; font-weight:700}
+
+
+-->
+</style>
+<script language="JavaScript">
+<!--
+function P7_getHW(t,a) { //v2.03 by PVII
+  var r,p,h=0,w=0;if((p=MM_findObj(a)) !=null){
+  if(document.all || document.getElementById){h=parseInt(p.offsetHeight);w=parseInt(p.offsetWidth);
+  if(!h){h=parseInt(p.style.pixelHeight);w=parseInt(p.style.pixelWidth);}
+  }else if(document.layers){h=parseInt(p.clip.height);w=parseInt(p.clip.width);}}
+  if(t=="width"){r=w;}else{r=h;}return r; 
+}
+
+function P7_MM1dwt() { //v2.03 by PVII
+  var g,lh,sw,fr = false;
+  if(!document.p7mc)return;
+  for(var x=0;x<p7m1.length;x++){tl=p7m1[x].id;lh="P7CM1DWT0"+tl;
+	if((g=MM_findObj(lh)) !=null){fr=true;sw=0;break;}
+	lh="P7CM1DWT1"+tl;if((g=MM_findObj(lh)) !=null){fr=true;sw=1;break;}}
+  if(fr){eval("P7_trigMenuMagic1('"+tl+"',"+sw+")");}
+}
+
+function P7_setMenuMagic1() { //v2.03 by PVII
+  var s,d,g,g2,gg,ww,kx,th,tu,ts,nu,xx,k=0,pa=0;args=P7_setMenuMagic1.arguments;
+  if((navigator.appName=="Netscape") && parseInt(navigator.appVersion)>4 && navigator.userAgent.indexOf("Opera")==-1){pa="px";}
+  if(navigator.userAgent.indexOf("Opera")>-1){P7OperaW=window.innerWidth;P7OperaH=window.innerHeight;}
+  if(!document.p7mc) {
+   p7m=new Array();document.p7mc=true;p7ms=new Array();document.P7_imswap=new Array();document.P7_imswapo=new Array();
+   p7m1=new Array();p7m2=new Array();p7mprop=new Object();p7mprop.p7offset=args[0];p7mprop.p7rate=args[1];
+   p7mprop.p7delay=args[2];p7mprop.p7bottom=args[3];
+   if(document.layers){p7mprop.p7pageh = document.height;}}
+  for(var x=4;x<args.length;x+=3){if((g=MM_findObj(args[x])) !=null){
+    p7m[k]=args[x];g.p7imname=args[x+2];g.p7sub=args[x+1];
+    g2=MM_findObj(args[x+2]);tu=g2.src;ts=tu.lastIndexOf(".");
+    nu=tu.substring(0,ts)+"_open"+tu.substring(ts,tu.length);
+	nu2=tu.substring(0,ts)+"_over"+tu.substring(ts,tu.length);
+    document.P7_imswap[k]=new Image();document.P7_imswap[k].src=nu;
+	document.P7_imswapo[k]=new Image();document.P7_imswapo[k].src=nu2;k++;}}
+  var lf=0;for (var j=0;j<p7m.length;j++){
+   if((g=MM_findObj(p7m[j])) !=null){d=(document.layers)?g:g.style;p7m1[j]=g;g.p7waiting=false;
+    if(j==0){lf=parseInt(d.left);th=parseInt(d.top);}
+    if(j>0){d.left=(lf+pa);th+=P7_getHW('height',p7m[j-1]);d.top=(th+pa);}
+    if((s=MM_findObj(g.p7sub)) !=null){p7m2[j]=s;ww=P7_getHW('width',g.p7sub);
+     kx=lf-ww-20;dd=(document.layers)?s:s.style;
+     dd.left=(kx+pa);dd.top=(th+pa);p7ms[j]=th;dd.visibility="visible";s.p7open=false;s.p7waiting=false;}}}
+  if((g=MM_findObj(p7mprop.p7bottom)) !=null){d=(document.layers)?g:g.style;
+   d.left=(lf+parseInt(args[0])+pa);th+=P7_getHW('height',p7m[p7m.length-1]);d.top=(th+pa);}
+}
+
+function P7_wait(a) { //v2.03 by PVII
+  var ma,mb;if((mb=MM_findObj(a)) !=null){
+   if(!mb.p7waiting || mb.p7waiting=="none"){return;}
+    ma=mb.p7waiting;mb.p7waiting=false;eval(ma);}
+}
+
+function P7_trigMenuMagic1(a,sw) { //v2.03 by PVII
+  var x,g,gg,d,dd,w,lp,tp,im,im2,ts,nu,e,pa=0;
+  if(!document.p7mc)return;
+  if((navigator.appName=="Netscape") && parseInt(navigator.appVersion)>4 && navigator.userAgent.indexOf("Opera")==-1){pa="px";}
+  if(navigator.userAgent.indexOf("Opera")>-1){if( P7OperaW!=window.innerWidth || P7OperaH!=window.innerHeight)P7_setMenuMagic1();}
+  var ofs=parseInt(p7mprop.p7offset),trt = parseInt(p7mprop.p7rate);
+  var tdy=parseInt(p7mprop.p7delay),tsb,tlf,tst;
+  for(x=0;x<p7m.length;x++){if(p7m[x]==a){
+    d=p7m1[x];dd=(document.layers)?d:d.style;g=p7m2[x];gg=(document.layers)?g:g.style;
+	e=MM_findObj(d.p7imname);im=e.src;ts=im.replace("_open","");ts=ts.replace("_over","");
+	 if(!g.p7open){tst="closed";im2=ts.lastIndexOf(".");
+	  nu=ts.substring(0,im2)+"_open"+ts.substring(im2,ts.length);ts = nu;
+	 }else{tst="open"}break;}}
+  for(j=0;j<p7m.length;j++){
+   d=p7m1[j];dd=(document.layers)?d:d.style;g=p7m2[j];gg=(document.layers)?g:g.style;
+   if(j==0){tlf=parseInt(dd.left);}
+   if(g.p7open){w=P7_getHW('width',d.p7sub)+20;w-=parseInt(dd.left);w*=-1;d.p7waiting=false;
+	eval("P7_BM1('"+d.p7sub+"',"+w+","+parseInt(gg.top)+","+trt+","+tdy+",0,0)");}
+	d.p7waiting=false;g.p7open=false;
+    if(parseInt(sw)==1){e=MM_findObj(d.p7imname);im=e.src;im2=im.replace("_open","");e.src=im2;}}
+  var tnt=new Array();var df=0,tcd=0,tdl=p7m[0];
+  for(j=0;j<p7m.length;j++){
+   d=p7m1[j];dd=(document.layers)?d:d.style;g=p7m2[j];gg=(document.layers)?g:g.style;
+   if(j==0){th=parseInt(dd.top);}tnt[j]=th;df=Math.abs(parseInt(dd.top)-th);
+   if(df>tcd){tdl=p7m[j];tcd=df;}th+=P7_getHW('height',p7m[j]);
+   if(x==j && tst=="closed"){tsb=th;th+=P7_getHW('height',d.p7sub);}p7ms[j]=th;}
+   if(tst=="closed") {d=p7m1[x];dd=(document.layers)?d:d.style;
+	g=p7m2[x];gg=(document.layers)?g:g.style;lp=tlf+ofs;
+	gg.top=(tsb+pa);p7ms[x]=tsb;gg.visibility="visible";e=MM_findObj(d.p7imname);
+	if(parseInt(sw)==1){e.src=ts;}var r;g.p7open=true;r=MM_findObj(tdl);		
+	r.p7waiting="P7_BM1('"+d.p7sub+"',"+lp+","+tsb+","+trt+","+tdy+",0,0)" ;
+   }else{d=p7m1[p7m1.length-1];d.p7waiting="none";}
+  for(j=0;j<p7m.length;j++ ){eval("P7_BM1('"+p7m[j]+"',"+tlf+","+tnt[j]+","+trt+","+tdy+",0,0)");}
+  if((g=MM_findObj(p7mprop.p7bottom)) !=null){d=(document.layers)?g:g.style;g.p7waiting=false;
+   eval("P7_BM1('"+p7mprop.p7bottom+"',"+(tlf+ofs)+","+th+","+trt+","+tdy+",0,0)");
+   th+=(document.layers)?P7_getHW('height',p7mprop.p7bottom):0;}
+  if(document.layers){var tw2=document.width;
+    if(document.height<th) {document.height=th;document.width=tw2;}}
+}
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function P7_BM1(el,x,y,a,b,c,s) { //v2.03 by PVII
+ var g,elo=el,f="",m=false,d="";x=parseInt(x);y=parseInt(y);
+ var t = 'g.p7BM = setTimeout("P7_BM1(\''+elo+'\','; 
+ if ((g=MM_findObj(el))!=null) {d=(document.layers)?g:g.style;}else{return;}
+ var xx=(parseInt(d.left))?parseInt(d.left):0;
+ var yy=(parseInt(d.top))?parseInt(d.top):0;
+ var i=parseInt(a);
+  if (eval(g.moved)){clearTimeout(g.p7BM);}
+  if (xx<x){xx+=i;m=true;if(xx>x){xx=x;}}
+  if (xx>x){xx-=i;m=true;if(xx<x){xx=x;}}
+  if (yy<y){yy+=i;m=true;if(yy>y){yy=y;}}
+  if (yy>y){yy-=i;m=true;if(yy<y){yy=y;}}
+ if (m) {if((navigator.appName=="Netscape") && parseInt(navigator.appVersion)>4 && navigator.userAgent.indexOf("Opera")==-1){
+    xx+="px";yy+="px";}
+  d.left=xx;d.top=yy;g.moved=true;eval(t+x+','+y+','+a+','+b+','+c+',0)",'+b+')');
+  }else {g.moved=false;P7_wait(elo);}
+}
+
+function P7_ReDoIt() { //v1.21 by PVII
+ if(document.layers) {MM_reloadPage(false);}
+}
+//-->
+</script>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body  text="#000000" background="../images/slice.gif" onLoad="P7_ReDoIt();P7_setMenuMagic1(10,40,10,'p7menubottom','p7menu1','p7submenu1','p7mbut1','p7menu2','p7submenu2','p7mbut2','p7menu3','p7submenu3','p7mbut3','p7menu4','p7submenu4','p7mbut4','p7menu5','p7submenu5','p7mbut5','p7menu6','p7submenu6','p7mbut6','p7menu7','p7submenu7','p7mbut7','p7menu8','p7submenu8','p7mbut8','p7menu9','p7submenu9','p7mbut9','p7menu10','p7submenu10','p7mbut10','p7menu11','p7submenu11','p7mbut11','p7menu12','p7submenu12','p7mbut12')">
+<div id="p7menu1" style="position:absolute; left:10px; top:120px; width:172px; z-index:109"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu1',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/cataloging.gif" width="172" height="20" name="p7mbut1" border="0" alt="Cataloging"></a></div>
+<div id="p7menu2" style="position:absolute; left:10px; top:140px; width:172px; z-index:110"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu2',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/authorities.gif" width="172" height="20" name="p7mbut2" border="0" alt="Authorities/PCC"></a></div>
+<div id="p7menu3" style="position:absolute; left:10px; top:160px; width:172px; z-index:111"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu3',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/physical.gif" width="172" height="20" name="p7mbut3" border="0" alt="Physical Treatment"></a></div>
+<div id="p7menu4" style="position:absolute; left:10px; top:180px; width:172px; z-index:112"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu4',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/voyager.gif" width="172" height="20" name="p7mbut4" border="0" alt="Voyager"></a></div>
+<div id="p7menu5" style="position:absolute; left:10px; top:200px; width:172px; z-index:113"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu5',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/recap.gif" width="172" height="20" name="p7mbut5" border="0" alt="ReCAP"></a></div>
+<div id="p7menu6" style="position:absolute; left:10px; top:220px; width:172px; z-index:113"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu6',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/eresources.gif" width="172" height="20" name="p7mbut6" border="0" alt="Electronic Resources"></a></div>
+<div id="p7menu7" style="position:absolute; left:10px; top:240px; width:172px; z-index:114"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu7',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/metadata.gif" width="172" height="20" name="p7mbut7" border="0" alt="Metadata"></a><br></div>
+<div id="p7menu8" style="position:absolute; left:10px; top:260px; width:172px; z-index:114"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu8',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/OCLC.gif" width="172" height="20" name="p7mbut8" border="0" alt="OCLC"></a><br></div>
+<div id="p7menu9" style="position:absolute; left:10px; top:280px; width:172px; z-index:114"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu9',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/reference.gif" alt="Reference" name="p7mbut9" width="172" height="20" border="0" id="p7mbut9"></a><br>
+</div>
+<div id="p7menu10" style="position:absolute; left:10px; top:300px; width:172px; z-index:115"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu10',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/procpol.gif" alt="Policies/Procedures" name="p7mbut10" width="172" height="20" border="0" id="p7mbut10"></a></div>
+<div id="p7menu11" style="position:absolute; left:10px; top:320px; width:172px; z-index:115"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu11',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/team.gif" alt="Team/Special" name="p7mbut11" width="172" height="20" border="0" id="p7mbut11"></a></div>
+<div id="p7menu12" style="position:absolute; left:10px; top:340px; width:172px; z-index:116"><a href="javascript:;" onClick="P7_trigMenuMagic1('p7menu12',1);return false" onFocus="if(this.blur)this.blur()"><img src="images/outside.gif" width="172" height="20" name="p7mbut12" border="0" alt="Outside Links" id="p7mbut12"></a></div>
+
+<div id="p7submenu1" class="pviimenudiv" style="position:absolute; left:202px; top:140px; width:162px; visibility: hidden; z-index:101"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr>
+      <td><a href="phystrea/phytoc.html">Accompanying material in non-print formats</a> </td>
+    </tr>
+	<tr> 
+      <td><a href="art/general.html">Art</a></td>
+    </tr>
+    <tr> 
+      <td><a href="bookser/bookdoc2.html">Booksets</a></td>
+    </tr>
+    <tr> 
+      <td><a href="procedures/LCcat.html">Cataloging with Copy</a></td>
+    </tr>
+    <tr> 
+      <td><a href="class/artfile.html">Classification</a></td>
+    </tr>
+    <tr> 
+      <td><a href="desc/colevtoc.html">Collection-Level</a></td>
+    </tr>
+    <tr> 
+      <td><a href="comp/concarrier.html">Computer Files</a></td>
+    </tr>
+	    <tr> 
+      <td><a href="dvd/dvdintro.htm">DVDs</a></td>
+    </tr>
+    <tr> 
+      <td><a href="bookser/fascicles.html">Fascicles</a></td>
+    </tr>
+    <tr> 
+      <td><a href="micro/mictoc.html">Microforms 
+        & Photocopies</a></td>
+    </tr>
+    <tr> 
+      <td><a href="recon/recontoc.html">Recon</a></td>
+    </tr>
+    <tr> 
+      <td><a href="bookser/s3what.html">Serials</a></td>
+    </tr>
+    <tr> 
+      <td><a href="series/verilc.html">Series</a></td>
+    </tr>
+    <tr> 
+      <td><a href="class/cutter.html">Shelflisting</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu2" class="pviimenudiv" style="position:absolute; left:202px; top:160px; width:162px; visibility: hidden; z-index:102"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="pcc/bibconjp.html">BIBCO</a></td>
+    </tr>
+    <tr> 
+      <td><a href="cp20/nacotoc.html">NACO</a></td>
+    </tr>
+    <tr> 
+      <td><a href="pcc/nserpol.html">NACO Series</a></td>
+    </tr>
+    <tr> 
+      <td><a href="pcc/sacwhen.html">SACO</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu3" class="pviimenudiv" style="position:absolute; left:202px; top:180px; width:162px; visibility: hidden; z-index:103"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="phystrea/barbook.html">Barcodes</a></td>
+    </tr>
+    <tr> 
+      <td><a href="phystrea/callno.html">Call Numbers</a></td>
+    </tr>
+    <tr> 
+      <td><a href="phystrea/phytoc.html">Accompanying material in 
+        non-print formats</a></td>
+    </tr>
+    <tr> 
+      <td><a href="phystrea/jackets.html">Book jackets</a></td>
+    </tr>
+    <tr> 
+      <td><a href="phystrea/inserts.html">Inserts received after cataloging</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu4" class="pviimenudiv" style="position:absolute; left:202px; top:200px; width:162px; visibility: hidden; z-index:104"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="voyager/searching.html">Searching</a></td>
+    </tr>
+    <tr> 
+      <td><a href="voyager/holitmono.html">Cataloging procedures</a></td>
+    </tr>
+    <tr>
+      <td><a href="voyager/valid.html">Validation</a></td>
+    </tr>
+    <tr> 
+      <td><a href="../order/catmodule/overlayv.html">Import &amp; overlay</a> 
+        (Order)</td>
+    </tr>
+    <tr> 
+      <td><a href="../order/catmodule/rmtsrch.html">Remote searching</a> (Order)</td>
+    </tr>
+    <tr> 
+      <td><a href="voyager/prefs.html">Preference settings</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu5" class="pviimenudiv" style="position:absolute; left:202px; top:220px; width:162px; visibility: hidden; z-index:105"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="recap/recap.html">ReCAP</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu6" class="pviimenudiv" style="position:absolute; left:202px; top:240px; width:162px; visibility: hidden; z-index:103"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><p><a href="electronic/concarrier.html">Cataloging information</a><br>
+          <a href="electronic/url.html">Policies</a><br>
+          <a href="electronic/history.html">Background</a><br>
+          <a href="electronic/electronic.html">Useful links</a></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu7" class="pviimenudiv" style="position:absolute; left:202px; top:260px; width:162px; visibility: hidden; z-index:106"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="../metadoc/main/index.html">Local documentation</a></td>
+    </tr>
+    <tr>
+      <td><a href="metadata/metadatalinks.htm">Useful links</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu8" class="pviimenudiv" style="position:absolute; left:202px; top:280px; width:162px; visibility: hidden; z-index:106"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="oclc/sealisttypes.html">Searching</a></td>
+    </tr>
+    <tr>
+      <td><a href="oclc/OCLCdefault.htm">Default keystrokes + toolbar buttons</a></td>
+    </tr>
+	<tr>
+      <td><a href="oclc/custexpopt.html">Customization</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu9" class="pviimenudiv" style="position:absolute; left:202px; top:300px; width:162px; visibility: hidden; z-index:106"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="../tech/BHoldStats.xls">B-floor holds (Excel)</a></td>
+    </tr>
+	<tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="reference/bhold2.html">B-hold floorplan</a></font></td>
+    </tr>
+    <tr> 
+      <td><a href="html/htmltoc.html">Metadata</a></td>
+    </tr>
+    <tr> 
+      <td>Cataloging Reference</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="catcopy/diatoc.html">Diacritics</a></font></td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="catcopy/article.html">Initial 
+        Articles</a></font></td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="catcopy/endpunc.html">End 
+        punctuation</a></font></td>
+    </tr>
+    <tr> 
+      <td> &nbsp;&nbsp;<font size="1"><a href="catcopy/abbrev.html">Abbreviations</a></font></td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="reference/formsubdiv.html">Form 
+        subdivisions</a></font></td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="designators/verntoc.html">Designators</a></font></td>
+    </tr>
+    <tr> 
+      <td>&nbsp;&nbsp;<font size="1"><a href="reference/seasons.html">Names 
+        of seasons</a></font></td>
+    </tr>
+    <tr> 
+      <td><a href="reference/locations.html">Location 
+        list</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu10" class="pviimenudiv" style="position:absolute; left:202px; top:320px; width:162px; visibility: hidden; z-index:104"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="policies/catpol.html">Policies</a></td>
+    </tr>
+    <tr> 
+      <td><a href="procedures/catproc.html">Procedures</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu11" class="pviimenudiv" style="position:absolute; left:202px; top:340px; width:162px; visibility: hidden; z-index:107"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="teams/unit1.html">Cataloging Units</a></td>
+    </tr>
+    <tr> 
+      <td><a href="bible/bibltoc.html">Bible</a></td>
+    </tr>
+    <tr>
+      <td><a href="greek/index.html">Greek</a></td>
+    </tr>
+    <tr> 
+      <td><a href="hebrew/hebrewtoc.html">Hebrew</a></td>
+    </tr>
+    <tr> 
+      <td><a href="music/mustoc.html">Music</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://library.princeton.edu/departments/tsd/pcm/persiancat.html">Persian</a></td>
+    </tr>
+    <tr> 
+      <td><a href="sgman/smtocs.html">Slavic</a></td>
+    </tr>
+  </table>
+</div>
+<div id="p7submenu12" class="pviimenudiv" style="position:absolute; left:202px; top:360px; width:162px; visibility: hidden; z-index:108"> 
+  <table width="162" border="0" cellspacing="6" cellpadding="0">
+    <tr> 
+      <td><a href="http://lcweb.loc.gov/marc/">MARC documentation</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://imagecat1.princeton.edu/ECC/">Electronic Card Catalog</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://libweb5.princeton.edu/geaccirc/CircSearch.asp">GEAC 
+        Snapshot database</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://164.214.2.59/gns/html/index.html
+">GEOnet</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://libweb5.princeton.edu/ejournals/by_title_zd.asp">Library 
+        electronic journals</a></td>
+    </tr>
+    <tr> 
+      <td><a href="http://www.google.com/">Google</a></td>
+    </tr>
+	<tr><td><a href="links.html">Useful Cataloging Links</a></td>
+	</tr>
+  </table>
+</div>
+<div id="p7menubottom" class="pviimenudiv" style="position:absolute; left:20px; top:360px; width:162px; visibility: visible; z-index:117"> 
+</div>
+<table width="100%" border="0">
+  <tr> 
+    <td width="6%" class="header"><a href="mailto:joyceb@princeton.edu"><img src="../images/Mail.gif" width="40" height="40" valign="top" alt="email link" border="0"></a><br> 
+      <font size="2"><a href="mailto:joyceb@princeton.edu">Contact</a></font></td>
+    <td width="87%"  align="center" class="header" > <img src="../images/doc_banner.gif" usemap="#Map" border="0" width="530" height="25"> 
+      <map name="Map">
+        <area shape="rect" coords="16,5,65,23" href="catman.html">
+        <area shape="rect" coords="67,5,109,22" href="cathome.html">
+        <area shape="rect" coords="118,4,158,21" href="../circ/circ.html">
+        <area shape="rect" coords="166,5,219,24" href="http://www.princeton.edu">
+        <area shape="rect" coords="227,5,283,21" href="http://libweb.princeton.edu">
+        <area shape="rect" coords="291,6,328,20" href="http://catalog.princeton.edu">
+        <area shape="rect" coords="334,4,383,28" href="../tech/hptsd.html">
+        <area shape="rect" coords="387,5,436,20" href="../order/ordhome.html">
+        <area shape="rect" coords="446,5,503,23" href="../order/ordoc.html">
+      </map> <br>
+      <br> <font size="3"><span class="bold">Princeton University Cataloging Documentation</span></font> 
+      <hr> </td>
+    <td width="7%" class="header"> <div align="right"> <a href="genindex.html"><img src="../images/index2.gif" width="31" height="24" alt="index link" border="0" ><br>
+        <font size="2">Index</font></a></div></td>
+  </tr>
+</table>
+<br>
+<div id="Layer1" class="bodytext" ><font size="2"><!-- #BeginEditable "body" --><b>Welcome 
+  to Catalog and Metadata Services' documentation. </b> 
+  <p>Thanks to our Documentation Committee, we have a new website. It isn't completely populated yet but more material is being transferred, updated, or created every week. As content becomes available in the new site, it will begin disappearing from this site, so please begin looking in the new site.
+  <p><a href="https://library.princeton.edu/cams/cataloging-and-metadata-services">https://library.princeton.edu/cams/cataloging-and-metadata-services</a>
+  
+  <p>.  
+  <p>.  
+  <p>  
+  <p><a href="http://libweb5.princeton.edu/catalog/report.asp">Cataloging Modification 
+    Reporting form</a>            
+  <!-- #EndEditable --></font> <br>
+  <br>
+  <font size="1">&copy; 2008 Princeton University<br>
+  Last modified <!-- #BeginEditable "lastmod" --> 
+  <!-- #BeginDate format:Am3 -->01/16/2019<!-- #EndDate -->
+<!-- #EndEditable --></font> </div>
+</body>
+<!-- #EndTemplate --></html>

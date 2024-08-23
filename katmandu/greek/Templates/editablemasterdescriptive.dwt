@@ -1,0 +1,60 @@
+<html>
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Greek Cataloging Manual</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style media="all" type="text/css">
+#nav ul {
+	margin: 0;
+	padding: 0;
+	width=165px;
+	list-style:none;
+}
+#nav li {
+	font-style: italic;
+	padding: 0 0 2px 0;
+}
+#nav .nav_title {
+	margin-top: 6px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: normal;
+}
+#nav a {
+	text-decoration: none;
+	color: blue;
+}
+#nav a:hover {
+	text-decoration:underline;
+	color: #000;
+}
+</style>
+</head>
+<body bgcolor="ffffff">
+<table width="756" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="52" valign="top" colspan="3"><p><a href="http://library.princeton.edu/departments/tsd/katmandu/catman.html"><img src="../images/pucatdoc.gif" border="0"></a></p>
+      <p><img src="../images/gKey1.jpg" width="833" height="75" hspace="12" vspace="12" align="absmiddle" border="0"></a></p>
+      <table width="756" height="524" border="0" cellpadding="0" cellspacing="0">
+        <tr> </tr>
+        <tr>
+          <td height="52" valign="top" colspan="3" align="center"><p><b>Bibliography of 19th &amp; 20th century Modern Greek Literary Journals </b></p></td>
+        </tr>
+       
+              
+                  <p align="center">This site will house a comprehensive bibliography of Modern Greek literary journals held by Princeton University. The bibliography will list call numbers and library holdings of each journal held principally at Firestone Library. When completed, the 
+                </li>
+              </ul>
+          </div>
+          <td colspan="2" valign="top"><!-- #BeginEditable "body" -->
+            <p>This site will house a comprehensive biblography of Modern Greek literary journals from the 19th &amp; 20th century. Journal citations will also include call numbers, location and most importantly, holdings information for each issue which Princeton University subscribes to.</p>
+          <!-- #EndEditable --></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="left">&copy;2007 Trustees of Princeton University<br />
+              <a href="mailto:gkam@princeton.edu"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">E-mail comments</font></a></td>
+        </tr>
+      </table>
+    </body>
+</html>

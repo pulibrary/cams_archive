@@ -1,0 +1,6 @@
+<FilesMatch "artmail*">
+	order deny,allow
+	deny from all
+	allow from .princeton.edu
+	allow from .pppl.gov
+</FilesMatch>

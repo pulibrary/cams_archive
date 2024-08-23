@@ -1,0 +1,575 @@
+<HTML>
+<HEAD>
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>Adding holdings and item records for serials</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<h5> <b>Adding Holdings and Item records to Voyager for Serials <br>
+  </b></h5>
+<P> <B> <font color="#0000FF" size="1">**When in doubt or if there are 
+  ANY questions regarding this procedure, call Catalog Unit IV.</font></B><font color="#0000FF" size="1"> 
+  **</font>
+<P>
+This procedure would be used for items that have a bibliographic record
+in Voyager, but the holdings record (location, copy) and/or item record (barcode)
+is missing. Item records are generally only created for bound holdings, not
+for individual unbound issues.
+<P>
+<UL>
+  <LI>
+    Log onto Voyager cataloging module.
+    <P>
+  <LI>
+    Call up the record. The most efficient search for this procedure is
+    by call number.
+    <P>
+     If you don't find a match, check with your supervisor. If a bibliographic
+    record really doesn't exist, create a circ-on-the-fly record, which will
+    consist of a bib, mfhd and item. See the
+    <A HREF="CreateforCircResLocal.html">Creating records for circulation, reserves
+    and local cataloging </A>procedure.
+    <P>
+     If two or more matches are found, choose the correct record by matching
+    up the title exactly and checking other bibliographic information if
+    necessary.
+    <P>
+     INFORMATION ABOUT <A HREF="choose.html">CHOOSING A CORRECT
+    MATCH</A>
+    <P>
+  <LI>
+    Display the bibliographic record if not already displayed by default.
+    Verify that the record is the correct one, by checking title (245 field),
+    numbers and dates (362 and 008 fields).
+    <P>
+     INFORMATION ABOUT <A HREF="choose.html">VERIFYING THE CORRECT
+    MATCH</A>
+    <P>
+     Accept the bibliographic record as is. Do not make any corrections
+    to a record. For problems, contact Cataloging Unit 4.
+    <P>
+  <LI>
+    Click on the "<B>Show associated records</B>" icon to display the
+    bibliographic tree. Examine the holdings and item records. Check to see if
+    your item already exists.
+    <P>
+     If there already exist a holdings record with a location and copy
+    number which matches yours, but without an item record (barcode), you will
+    need to examine the holdings record for accuracy and create an item
+    record.
+    <P>
+     If there is no location and/or copy number which matches yours you
+    will need to create a holdings record and an item record.
+    <P>
+  <LI>
+    <B>Adding and displaying a holdings records</B><BR>
+     There should be a holdings record for each copy that the library
+    own. E.g. One holdings record for (sg) copy 1 and one holdings record for
+    (sg) copy 2.
+    <P>
+  <LI>
+    Click on the "<B>Strapped Books</B>" icon to display a holdings record.
+    Examine it for accuracy according to the guidelines listed below.
+    <P>
+  <LI>
+    Click on the "<B>Strapped Books +</B>" icon to create a holdings record.
+    The holdings record (mfhd) template will display. Follow the guidelines for
+    entering information below. You must fill in the 852 field (location, call
+    number) and add <B>866</B> fields (summary holdings, notes)
+    <P>
+     To edit a field: Use the usual Windows cut/copy/paste and overwrite
+    capabilities. <BR>
+    To add a field: <BR>
+    Use the F3 function key to add a line above the selected line <BR>
+    Use the F4 function key to add a line below the selected line <BR>
+    To delete a field, select the field and hit the delete key. <BR>
+    To insert a delimiter symbol use the F9 function key
+    <P>
+  <LI>
+    <B>When creating a holdings record for a serial you must change the
+    "Type of Record" in the fixed fields part of the holdings
+    record</B>.
+    <UL>
+      <LI>
+	Click on the leader button on the holdings record.
+      <LI>
+	In the <B>type of record</B> drop down box, select <B>serial item
+	holdings</B>.
+    </UL>
+    <P>
+  <LI>
+    <B>852 field</B>
+    <P>
+     Examples:
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>852</TD>
+	<TD>0</TD>
+	<TD>&nbsp;</TD>
+	<TD>|b sg |h QE350 |i. I5 1990</TD>
+      </TR>
+      <TR>
+	<TD>852</TD>
+	<TD>0</TD>
+	    <TD>&nbsp;</TD>
+	<TD>|b sg |c Oversize |h QE350 |i. I52 1993q</TD>
+      </TR>
+      <TR>
+	<TD>852</TD>
+	<TD>0</TD>
+	    <TD>&nbsp;</TD>
+	<TD>|b res |t 50 |h DG225.B79 |i B747 1995</TD>
+      </TR>
+      <TR>
+	<TD>852</TD>
+	<TD>8</TD>
+	    <TD>&nbsp;</TD>
+	<TD>|b f |t 2 |h3225.1132</TD>
+      </TR>
+    </TABLE>
+    <P>
+    <UL>
+      <LI>
+	Indicator 1: Must have either a '0' (zero) for the Library of Congress
+	classification scheme, an '8' for Richardson classification, accession numbers
+	and others, or an '3' for Sudocs numbers.
+	<P>
+      <LI>
+	Indicator 2: We will leave blank. Do not delete a '0' (zero) if
+	there.
+	<P>
+      <LI>
+	The <B>location</B> will be in a |b subfield <BR>
+	The location must be in <B>lower case</B>. If you need to change the location,
+	place the cursor at the beginning of the location, manually retype in a new
+	location and delete the old location, or with the cursor in the |b field
+	press ctrl/L and choose your location from the list. If you get an error
+	message related to the location, and your location is in lower case, consult
+	your supervisor.
+	<P>
+      <LI>
+	Type in the following subfields in this order: (See examples above)
+	<BR>
+	|b = location <BR>
+	|t = copy number (for any copy beyond the first. Copy 50 and higher are used
+	for Reserve items) <BR>
+	|c Oversize (if required. Also put the size symbol at the end of the call
+	number) <BR>
+	|h = class number <BR>
+	|i = shelflist / cutter number. This is the last part of the LC call number
+	that starts with a letter. It represents the main entry for the item. Not
+	needed for non LC call numbers
+    </UL>
+    <P>
+  <LI>
+    <B>866 </B>- If you are working with a <B>serial
+    </B>there must also be an 866 field in the holdings record, (which in NOTIS
+    was in a separate MARC holdings record)
+    <P>
+  <LI>
+    <U>If you are working with an already existing holdings
+    record</U>
+    <UL>
+      <LI>
+	Check the 866 fields and verify that your piece fits into the holdings
+	statement. If it doesn't, check to make sure you have displayed the correct
+	holdings record. Also, recheck the bibliographic record to see whether the
+	piece might belong to an earlier/later or related title. Examine the holdings
+	record according to the guidelines below.
+	<P>
+	 Subfields: <BR>
+	|a = holdings field <BR>
+	|x = information not to be displayed in the public catalog (OPAC) <BR>
+	|z = information displayed in the public catalog (OPAC)
+	<P>
+	 EXAMPLES OF SUMMARY OF BOUND HOLDINGS NOTES<BR>
+	
+	<TABLE BORDER CELLPADDING="2">
+	  <TR>
+	    <TD>866</TD>
+	    <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a Vol. 1 (1990)-v. 2 (1991)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a Vol. 1, no. 1 (Aug. 1981)-v. 6, no. 12 (July 1987)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a Bd. 2, Nr. 3 (1975)-Bd. 14, Nr. 4 (1986)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a Ano 1, no. 1 (abril 1980)-ano 7, no. 3 (dez. 1986)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a No. 16 (1922)-no. 20 (1931), no. 36 (1955)-no. 41 (1960), no.
+	      76 (1998)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a 1966-67 - 1992-93</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a 1996, no 1 (janv. 1996)-1998, no 2 (juil. 1998)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a 1 (published in 1992)-11 (published in 1997)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|a Vol. 1 (1958)-v. 29 (1986) ; new ser., v. 1 (1989)-new ser.,
+	      v. 9 (1997)</TD>
+	  </TR>
+	</TABLE>
+	<P>
+	 EXAMPLES OF OTHER NOTES IN THE HOLDINGS RECORD:<BR>
+	
+	<TABLE BORDER CELLPADDING="2">
+	  <TR>
+	    <TD>866</TD>
+	    <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|z LACKS: v. 4</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|z CURRENT ISSUES IN: (PR)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|z CURRENT VOLUME IN: (DR)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|z CURRENT VOLUME ONLY RETAINED</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|x DESIGNATOR: vol. (is supplied by Cataloging staff and should
+	      not be changed. This indicates the primary adding element. Keep this in mind
+	      when creating the item record.)</TD>
+	  </TR>
+	  <TR>
+	    <TD>866</TD>
+	        <TD>&nbsp;</TD>
+	    <TD>0</TD>
+	    <TD>|z NOT TO CIRCULATE</TD>
+	  </TR>
+	</TABLE>
+	<P>
+      <LI>
+	If there is some slight discrepancy in the holdings (e.g., a volume
+	listed as lacking which the library does have), update the holdings note
+	accordingly. Holdings statements should not be substantially altered, as
+	they have been set up by Cataloging staff to follow AACR2 form. Vernacular
+	designators and vernacular months/seasons should be used, as they appear
+	on the piece or abbreviated according to AACR2 Appendix B. Any major discrepancy
+	in holdings information should be investigated further before any attempt
+	is made to update the record.
+	<P>
+    </UL>
+  <LI>
+    <U>If you have added a new holdings record for your location/copy
+    </U>you must add the appropriate 866 fields. These fields
+    stores copy-specific summary holdings and other notes for multi-part
+    publications.
+    <P>
+  <LI>
+    Retrieve the holdings record of a previously added copy. Copy the
+    866 fields and paste them into your newly created holdings record. Update
+    the 866 &Oslash;a to reflect the specific holdings for your copy, but do
+    not change the basic form of the holdings statement. Delete information that
+    does not apply to your copy. Do not delete or change the 866 &Oslash;x
+    DESIGNATOR: field. (SEE ABOVE FOR EXAMPLES AND BELOW FOR THINGS TO KEEP IN
+    MIND)
+    <P>
+     NOTE ABOUT COPY 2's, 3's, etc.:<BR>
+    First, make sure that a new holdings record is really called for. Under long-ago
+    Library policies, some volumes added as c. 2 were actually replacements for
+    missing volumes. These are now considered as belonging to c. 1, and the items
+    should simply be added to the existing copy. Make sure the copy number is
+    given in &Oslash; t of the 852.
+    <P>
+     If adding holdings for a Copy 2, begin the Summary of Bound Holdings
+    statement with the words "COPY 2:" and add ", c.2" after the
+    designator:
+    <P>
+     Example:
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>852</TD>
+	<TD>0</TD>
+	    <TD>&nbsp;</TD>
+	<TD>|b f |t 2 |h N4 |I .F58</TD>
+      </TR>
+      <TR>
+	<TD>866</TD>
+	    <TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>|a COPY 2: No. 16 (summer 1981)-no. 42 (winter 1987/88)</TD>
+      </TR>
+      <TR>
+	<TD>866</TD>
+	    <TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>|x DESIGNATOR: no., c. 2</TD>
+      </TR>
+    </TABLE>
+    <P>
+     The ENUM field of the individual item records should all end in ",
+    c. 2" as well.<BR>
+    Follow the same pattern for c. 3, etc.
+    <P>
+  <LI>
+     <B>Save the holdings record</B> to the database by clicking on the
+    <B>boat </B>icon.
+    <P>
+  <LI>
+     <B>IMPORTANT: </B><BR>
+    Do not include unbound issues.
+    <P>
+     Do not add to the beginning or end of a holdings run without checking
+    the bibliographic record to make sure that these holdings do not belong to
+    an earlier/later title record.
+    <P>
+     Do not use a publication date as a chronological designation. If
+    the only date given on the piece is a date of publication or copyright, use
+    the phrase (published in &#133;) in the holdings statement.
+    <P>
+     Do not add copy 2 holdings to the 866 field for copy 1; there should
+    be a separate holdings record for each additional copy.
+    <P>
+     Do not add earlier volumes if the record indicates CURRENT VOLUME
+    ONLY RETAINED
+    <P>
+     Do not give specific holdings if the 866 0 &Oslash;a says CURRENT
+    VOLUME or NEXT-TO-CURRENT VOLUME; in these cases, the specific holdings are
+    kept on the MFHD for the permanent location.
+    <P>
+     Take special care in adding volumes for serials that have more than
+    one system of numbering, either concurrent or sequential. It may be useful
+    to check the 362 and 515 fields on the bibliographic record and any &Oslash;x
+    notes in the 866 field on the holdings record.
+    <P>
+     Do not add a LACKS note without checking the bibliographic record
+    to make sure the absence of the piece has not already been accounted for
+    in a 515 Numbering Peculiarities note (e.g., 515 &Oslash;a Vol. for 1979
+    never published).
+    <P>
+     Do not add a LACKS note for a volume that is temporarily
+    missing.
+    <P>
+     Do not include supplement holdings. If adding an item record for
+    a supplement, always verify that it is being added to the correct record
+    (i.e., check that there is a 525 Supplements note on the bibliographic record,
+    and no 866 0 &Oslash; z indicating separate cataloging).
+    <P>
+     Do not include annual indexes.
+    <P>
+     Cumulative indexes--NEW:
+    <P>
+     Two former policies regarding cumulative index holdings have been
+    changed. They will now be noted for single- as well as multi- location titles,
+    and they will now be noted in a separate field, coded 868.
+    <P>
+     If adding an item record for a cumulative index, first verify that
+    it is listed in a 555 field on the bibliographic record. (If not found, please
+    consult Cat. Unit 4.) Then check the holdings record:
+    <P>
+  <LI>
+    If there is already an 868 field listing the index, go on to the item
+    record procedure
+    <P>
+  <LI>
+    If the index is listed at the end of the 866 Summary of Bound Holdings
+    statement, add an 868 field (first indicator blank, second indicator zero)
+    and move the index holdings into it (in subfield a). This can most easily
+    be done using Cut and Paste.
+    <P>
+     EXAMPLE:
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>866</TD>
+	<TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>|Vol. 36, no. 1 (Mar. 1953)-v. 55, no. 4 (Dec. 1972); Index, v.
+	  36/50</TD>
+      </TR>
+    </TABLE>
+    <P>
+     Change to:
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>866</TD>
+	<TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>|Vol. 36, no. 1 (Mar. 1953)-v. 55, no. 4 (Dec. 1972)</TD>
+      </TR>
+      <TR>
+	<TD>868</TD>
+	    <TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>|Index, v. 36/50</TD>
+      </TR>
+    </TABLE>
+    <P>
+  <LI>
+    If there is no mention of the index at all, add an 868 field (first
+    indicator blank, second indicator zero). The information is taken from the
+    555 field, but condensed. Follow the examples below:
+    <P>
+     <I>on bib.:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>555</TD>
+	<TD>&nbsp;</TD>
+	<TD>&nbsp;</TD>
+	<TD>| Vols. 1 (1939)-50 (1990). 1 v.</TD>
+      </TR>
+    </TABLE>
+    <P>
+     <I>on MFHD:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>868</TD>
+	<TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>| Index, v. 1/50</TD>
+      </TR>
+    </TABLE>
+    <P>
+     <I>on bib.:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>555</TD>
+	<TD>&nbsp;</TD>
+	<TD>&nbsp;</TD>
+	<TD>| Vols. 1 (1976)-5 (1980). 1 v.; v. 6 (1981)-10 (1985). 1 v.;
+	  v. 11 (1986)-15 (1990). 1 v.</TD>
+      </TR>
+    </TABLE>
+    <P>
+     <I>on MFHD:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>868</TD>
+	<TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>| Indexes: v. 1/5, 6/10, 11/15</TD>
+      </TR>
+    </TABLE>
+    <P>
+     <I>on bib.:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>555</TD>
+	<TD>&nbsp;</TD>
+	<TD>&nbsp;</TD>
+	<TD>| Title and author index: Vols. 1 (1989)-20 (1998). 1 v.</TD>
+      </TR>
+    </TABLE>
+    <P>
+     <I>on MFHD:</I>
+    <TABLE BORDER CELLPADDING="2">
+      <TR>
+	<TD>868</TD>
+	<TD>&nbsp;</TD>
+	<TD>0</TD>
+	<TD>| Title and author index: v. 1/20</TD>
+      </TR>
+    </TABLE>
+    <P>
+  <LI>
+    <B>Adding an item record </B><BR>
+     The holdings record must be active when you create an item record.
+    Repeat these steps for each additional volume.
+    <P>
+  <LI>
+    Click on the "<B>Stacked Books +</B>" icon to create an item
+    record.
+    <P>
+  <LI>
+    Fill in the <B>ENUM:</B> field with the primary adding element and
+    the <B>CHRON:</B> field with the secondary adding element (if present), as
+    explained below.
+    <P>
+     Primary adding element = the designation that has been chosen as
+    the primary way of identifying individual volumes of a serial. It may be
+    numerical, chronological, or a combination of both. It must be sufficient,
+    without depending on the secondary, to distinguish each bound volume of a
+    serial from all others. For currently added serials, vernacular designators
+    are always used, but in older volumes, the abbreviations v. and no. may be
+    found instead. The current form of the primary adding element for a serial
+    title is documented on the holdings record, in the field 866 0 &Oslash;x
+    DESIGNATOR:
+    <P>
+     Secondary adding element = additional designation information that
+    may be useful in identifying individual volumes of a serial. Some titles
+    have only one system of designation, and therefore no secondary. If the primary
+    is numerical, the secondary is always the year or date if present (as a
+    chronological designation-publication dates are not used in adding). If the
+    primary is chronological, the form of the secondary would be indicated
+    immediately after the primary in field 866 0 &Oslash;x DESIGNATOR: as
+    (SECONDARY:
+    <P>
+     <U>With piece in hand: </U><BR>
+    Find the page in the front of the volume where the adding information has
+    been penciled in. This is usually the t.p. verso or the page after the t.p.,
+    but may be further inside the volume. Use designation(s) as found written
+    in the piece to the right of the call no. The primary adding element will
+    appear outside parentheses, while the secondary, if present, will appear
+    inside parentheses.
+    <P>
+     <U>If working from a bookcard: </U><BR>
+    On the bookcard, the primary adding element will appear in the upper right-hand
+    corner, outside parentheses, while the secondary, if present, will appear
+    in the middle, inside parentheses.
+    <P>
+     <U>If working from a form: </U><BR>
+    If the adding elements have been copied from the piece, the primary will
+    appear outside parentheses and the secondary inside parentheses. If the
+    information is not clear, check the DESIGNATOR note on the MARC holdings
+    screen to determine what the primary adding element is.
+    <P>
+  <LI>
+    In the <B>item type</B> choose appropriate loan code.
+    <P>
+  <LI>
+    Scan in the barcorde.
+    <P>
+  <LI>
+    <B>Save the item record</B> to the database by clicking
+    on the <B>boat </B>icon.</ul>
+    
+<P> <B> <font color="#0000FF" size="1">**When in doubt or if there are 
+  ANY questions regarding this procedure, call Catalog Unit IV.</font></B><font color="#0000FF" size="1"> 
+  ** </font> 
+</BODY></HTML>
